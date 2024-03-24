@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Nov 08 13:59:18 2011
+Quartus II Version : 10.1 Build 197 01/19/2011 SP 1 SJ Full Version
+Revision Name : MTL_DEMO
+Top-level Entity Name : MTL_DEMO
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 3,333 / 114,480 ( 3 % )
+    Total combinational functions : 2,883 / 114,480 ( 3 % )
+    Dedicated logic registers : 1,710 / 114,480 ( 1 % )
+Total registers : 1710
+Total pins : 437 / 529 ( 83 % )
+Total virtual pins : 0
+Total memory bits : 80,798 / 3,981,312 ( 2 % )
+Embedded Multiplier 9-bit elements : 49 / 532 ( 9 % )
+Total PLLs : 2 / 4 ( 50 % )

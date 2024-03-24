@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp
+END
+.force_relink
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/.force_relink
+END
+summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/summary.html
+END
+alt_sys_init.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/alt_sys_init.c
+END
+settings.bsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/settings.bsp
+END
+memory.gdb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/memory.gdb
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/.project
+END
+public.mk
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/public.mk
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/.cproject
+END
+mem_init.mk
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/mem_init.mk
+END
+create-this-bsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/create-this-bsp
+END
+linker.x
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/linker.x
+END
+system.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/system.h
+END
+linker.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/linker.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/Makefile
+END

@@ -1,0 +1,205 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'u_controller|u_vout_pll|altpll_component|pll|clk[0]'
+Slack : -7.642
+TNS   : -1151.406
+
+Type  : Slow Model Setup 'u_controller|u_sdram_pll|altpll_component|pll|clk[0]'
+Slack : -7.566
+TNS   : -191.170
+
+Type  : Slow Model Setup 'clk_dram'
+Slack : 2.070
+TNS   : 0.000
+
+Type  : Slow Model Setup 'u_controller|u_sdram_pll|altpll_component|pll|clk[2]'
+Slack : 10.563
+TNS   : 0.000
+
+Type  : Slow Model Setup 'sys_50m'
+Slack : 15.891
+TNS   : 0.000
+
+Type  : Slow Model Hold 'sys_50m'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow Model Hold 'u_controller|u_sdram_pll|altpll_component|pll|clk[0]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'u_controller|u_sdram_pll|altpll_component|pll|clk[2]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'u_controller|u_vout_pll|altpll_component|pll|clk[0]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'clk_dram'
+Slack : 2.601
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'u_controller|u_vout_pll|altpll_component|pll|clk[0]'
+Slack : -6.554
+TNS   : -618.375
+
+Type  : Slow Model Recovery 'u_controller|u_sdram_pll|altpll_component|pll|clk[0]'
+Slack : -4.093
+TNS   : -61.395
+
+Type  : Slow Model Recovery 'u_controller|u_sdram_pll|altpll_component|pll|clk[2]'
+Slack : 3.909
+TNS   : 0.000
+
+Type  : Slow Model Removal 'u_controller|u_sdram_pll|altpll_component|pll|clk[0]'
+Slack : 1.031
+TNS   : 0.000
+
+Type  : Slow Model Removal 'u_controller|u_sdram_pll|altpll_component|pll|clk[2]'
+Slack : 1.439
+TNS   : 0.000
+
+Type  : Slow Model Removal 'u_controller|u_vout_pll|altpll_component|pll|clk[0]'
+Slack : 1.499
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'u_controller|u_sdram_pll|altpll_component|pll|clk[0]'
+Slack : 2.873
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'u_controller|u_sdram_pll|altpll_component|pll|clk[1]'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk_dram'
+Slack : 7.223
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'sys_50m'
+Slack : 9.000
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'u_controller|u_vout_pll|altpll_component|pll|clk[0]'
+Slack : 13.024
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'sys_27m'
+Slack : 18.518
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk_vga'
+Slack : 27.526
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'u_controller|u_sdram_pll|altpll_component|pll|clk[2]'
+Slack : 47.873
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'I2CSCL'
+Slack : 12497.223
+TNS   : 0.000
+
+Type  : Fast Model Setup 'u_controller|u_vout_pll|altpll_component|pll|clk[0]'
+Slack : -3.803
+TNS   : -646.527
+
+Type  : Fast Model Setup 'u_controller|u_sdram_pll|altpll_component|pll|clk[0]'
+Slack : -3.197
+TNS   : -83.451
+
+Type  : Fast Model Setup 'clk_dram'
+Slack : 5.087
+TNS   : 0.000
+
+Type  : Fast Model Setup 'u_controller|u_sdram_pll|altpll_component|pll|clk[2]'
+Slack : 15.126
+TNS   : 0.000
+
+Type  : Fast Model Setup 'sys_50m'
+Slack : 18.066
+TNS   : 0.000
+
+Type  : Fast Model Hold 'sys_50m'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'u_controller|u_sdram_pll|altpll_component|pll|clk[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'u_controller|u_sdram_pll|altpll_component|pll|clk[2]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'u_controller|u_vout_pll|altpll_component|pll|clk[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clk_dram'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'u_controller|u_vout_pll|altpll_component|pll|clk[0]'
+Slack : -3.781
+TNS   : -368.062
+
+Type  : Fast Model Recovery 'u_controller|u_sdram_pll|altpll_component|pll|clk[0]'
+Slack : -2.268
+TNS   : -34.020
+
+Type  : Fast Model Recovery 'u_controller|u_sdram_pll|altpll_component|pll|clk[2]'
+Slack : 6.450
+TNS   : 0.000
+
+Type  : Fast Model Removal 'u_controller|u_sdram_pll|altpll_component|pll|clk[0]'
+Slack : 0.581
+TNS   : 0.000
+
+Type  : Fast Model Removal 'u_controller|u_sdram_pll|altpll_component|pll|clk[2]'
+Slack : 0.762
+TNS   : 0.000
+
+Type  : Fast Model Removal 'u_controller|u_vout_pll|altpll_component|pll|clk[0]'
+Slack : 0.812
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'u_controller|u_sdram_pll|altpll_component|pll|clk[0]'
+Slack : 2.873
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'u_controller|u_sdram_pll|altpll_component|pll|clk[1]'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk_dram'
+Slack : 7.223
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'sys_50m'
+Slack : 9.000
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'u_controller|u_vout_pll|altpll_component|pll|clk[0]'
+Slack : 13.024
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'sys_27m'
+Slack : 18.518
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk_vga'
+Slack : 27.526
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'u_controller|u_sdram_pll|altpll_component|pll|clk[2]'
+Slack : 47.873
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'I2CSCL'
+Slack : 12497.223
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Oct 25 13:39:02 2011
+Quartus II Version : 10.1 Build 197 01/19/2011 SP 1 SJ Full Version
+Revision Name : MTL_DEMO
+Top-level Entity Name : MTL_DEMO
+Family : Cyclone IV E
+Total logic elements : 8,247
+    Total combinational functions : 6,183
+    Dedicated logic registers : 4,809
+Total registers : 4809
+Total pins : 441
+Total virtual pins : 0
+Total memory bits : 107,920
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 2

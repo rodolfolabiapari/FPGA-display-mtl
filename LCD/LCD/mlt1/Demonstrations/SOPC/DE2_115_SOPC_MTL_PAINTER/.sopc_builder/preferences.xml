@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="Default">
+  <columns>
+   <opcodeName visible="0" />
+   <connections preferredWidth="111" />
+   <irq preferredWidth="34" />
+   <export visible="0" />
+   <name preferredWidth="215" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="242" />
+   <clocksource preferredWidth="241" />
+   <frequency preferredWidth="239" />
+  </columns>
+ </clocktable>
+ <window width="1232" height="958" x="48" y="30" />
+ <library
+   expandedCategories="Library/Processors,Library/Memories and Memory Controllers/Flash,Library,Library/Memories and Memory Controllers/DMA,Library/Bridges and Adapters/Memory Mapped,Project,Library/PLL,Project/Terasic Technologies Inc.,Library/Memories and Memory Controllers,Project/Terasic Technologies Inc./DE2_115,Library/Processor Additions,Library/Peripherals,Library/Bridges and Adapters" />
+</preferences>

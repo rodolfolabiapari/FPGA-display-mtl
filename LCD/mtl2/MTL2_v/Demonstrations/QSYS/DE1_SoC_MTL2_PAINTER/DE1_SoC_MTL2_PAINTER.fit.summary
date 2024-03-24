@@ -1,0 +1,19 @@
+Fitter Status : Successful - Wed Dec 17 14:59:36 2014
+Quartus II 64-Bit Version : 14.0.2 Build 209 09/17/2014 SJ Full Version
+Revision Name : DE1_SoC_MTL2_PAINTER
+Top-level Entity Name : DE1_SoC_MTL2_PAINTER
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 3,398 / 32,070 ( 11 % )
+Total registers : 5628
+Total pins : 235 / 457 ( 51 % )
+Total virtual pins : 0
+Total block memory bits : 113,456 / 4,065,280 ( 3 % )
+Total DSP Blocks : 0 / 87 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 2 / 6 ( 33 % )
+Total DLLs : 0 / 4 ( 0 % )

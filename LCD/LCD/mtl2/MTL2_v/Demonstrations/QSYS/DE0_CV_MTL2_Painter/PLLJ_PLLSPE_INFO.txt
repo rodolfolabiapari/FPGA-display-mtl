@@ -1,0 +1,35 @@
+PLL_Name	MTL2:u0|MTL2_altpll_sys:altpll_sys|MTL2_altpll_sys_altpll_bqn2:sd1|generic_pll7~FRACTIONAL_PLL
+PLLJITTER	58
+PLLSPEmax	50
+PLLSPEmin	-50
+
+PLL_Name	MTL2:u0|MTL2_altpll_sys:altpll_sys|MTL2_altpll_sys_altpll_bqn2:sd1|generic_pll7~PLL_OUTPUT_COUNTER
+PLLJITTER	NA
+PLLSPEmax	NA
+PLLSPEmin	NA
+
+PLL_Name	MTL2:u0|MTL2_altpll_sys:altpll_sys|MTL2_altpll_sys_altpll_bqn2:sd1|generic_pll8~PLL_OUTPUT_COUNTER
+PLLJITTER	NA
+PLLSPEmax	NA
+PLLSPEmin	NA
+
+PLL_Name	MTL2:u0|MTL2_altpll_sys:altpll_sys|MTL2_altpll_sys_altpll_bqn2:sd1|generic_pll9~PLL_OUTPUT_COUNTER
+PLLJITTER	NA
+PLLSPEmax	NA
+PLLSPEmin	NA
+
+PLL_Name	MTL2:u0|MTL2_altpll_sys:altpll_sys|MTL2_altpll_sys_altpll_bqn2:sd1|generic_pll10~PLL_OUTPUT_COUNTER
+PLLJITTER	NA
+PLLSPEmax	NA
+PLLSPEmin	NA
+
+PLL_Name	vga_pll:pll_inst|altpll:altpll_component|vga_pll_altpll:auto_generated|generic_pll1~FRACTIONAL_PLL
+PLLJITTER	58
+PLLSPEmax	50
+PLLSPEmin	-50
+
+PLL_Name	vga_pll:pll_inst|altpll:altpll_component|vga_pll_altpll:auto_generated|generic_pll1~PLL_OUTPUT_COUNTER
+PLLJITTER	NA
+PLLSPEmax	NA
+PLLSPEmin	NA
+

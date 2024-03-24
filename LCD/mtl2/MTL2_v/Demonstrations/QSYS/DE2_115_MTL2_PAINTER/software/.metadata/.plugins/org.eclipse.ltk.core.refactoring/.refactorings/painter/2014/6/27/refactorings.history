@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;painter/terasic_lib/I2C_ocre.c&apos; to &apos;I2C_core.c&apos;" description="Rename resource &apos;I2C_ocre.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="terasic_lib/I2C_ocre.c" name="I2C_core.c" stamp="1404105661719" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;painter/terasic_lib/I2C_ocre.h&apos; to &apos;I2C_core.h&apos;" description="Rename resource &apos;I2C_ocre.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="terasic_lib/I2C_ocre.h" name="I2C_core.h" stamp="1404105675018" updateReferences="true"/>
+</session>

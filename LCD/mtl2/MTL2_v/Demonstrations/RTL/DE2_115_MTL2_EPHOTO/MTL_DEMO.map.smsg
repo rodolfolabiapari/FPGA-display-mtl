@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at i2c_touch_config.v(113): always construct contains both blocking and non-blocking assignments

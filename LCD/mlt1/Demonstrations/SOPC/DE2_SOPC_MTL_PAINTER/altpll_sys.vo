@@ -1,0 +1,521 @@
+//IP Functional Simulation Model
+//VERSION_BEGIN 10.1SP1 cbx_mgl 2011:01:19:21:15:40:SJ cbx_simgen 2011:01:19:21:13:40:SJ  VERSION_END
+// synthesis VERILOG_INPUT_VERSION VERILOG_2001
+// altera message_off 10463
+
+
+
+// Copyright (C) 1991-2011 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// You may only use these simulation model output files for simulation
+// purposes and expressly not for synthesis or any other purposes (in which
+// event Altera disclaims all warranties of any kind).
+
+
+//synopsys translate_off
+
+//synthesis_resources = altpll 1 lut 5 
+`timescale 1 ps / 1 ps
+module  altpll_sys
+	( 
+	address,
+	c0,
+	c1,
+	c2,
+	clk,
+	locked,
+	phasedone,
+	read,
+	readdata,
+	reset,
+	write,
+	writedata) /* synthesis synthesis_clearbox=1 */;
+	input   [1:0]  address;
+	output   c0;
+	output   c1;
+	output   c2;
+	input   clk;
+	output   locked;
+	output   phasedone;
+	input   read;
+	output   [31:0]  readdata;
+	input   reset;
+	input   write;
+	input   [31:0]  writedata;
+
+	wire  [5:0]   wire_altpll_sys_altpll_sd1_205_clk;
+	wire  wire_altpll_sys_altpll_sd1_205_locked;
+	reg	altpll_sys_pfdena_reg_6q;
+	reg	altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe4a_0_116q;
+	reg	altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe5a_0_119q;
+	reg	altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe6a_0_117q;
+	reg	altpll_sys_prev_reset_4q;
+	wire  s_wire_altpll_sys_w_select_control_17_dataout;
+	wire  s_wire_altpll_sys_w_select_status_20_dataout;
+	wire  s_wire_altpll_sys_wire_pfdena_reg_ena_15_dataout;
+	wire  s_wire_vcc;
+
+	altpll   altpll_sys_altpll_sd1_205
+	( 
+	.activeclock(),
+	.areset(altpll_sys_prev_reset_4q),
+	.clk(wire_altpll_sys_altpll_sd1_205_clk),
+	.clkbad(),
+	.clkloss(),
+	.enable0(),
+	.enable1(),
+	.extclk(),
+	.fbout(),
+	.fref(),
+	.icdrclk(),
+	.inclk({1'b0, clk}),
+	.locked(wire_altpll_sys_altpll_sd1_205_locked),
+	.phasedone(),
+	.scandataout(),
+	.scandone(),
+	.sclkout0(),
+	.sclkout1(),
+	.vcooverrange(),
+	.vcounderrange(),
+	.clkena(),
+	.clkswitch(),
+	.configupdate(),
+	.extclkena(),
+	.fbin(),
+	.pfdena(),
+	.phasecounterselect(),
+	.phasestep(),
+	.phaseupdown(),
+	.pllena(),
+	.scanaclr(),
+	.scanclk(),
+	.scanclkena(),
+	.scandata(),
+	.scanread(),
+	.scanwrite()
+	);
+	defparam
+		altpll_sys_altpll_sd1_205.bandwidth = 0,
+		altpll_sys_altpll_sd1_205.bandwidth_type = "AUTO",
+		altpll_sys_altpll_sd1_205.c0_high = 0,
+		altpll_sys_altpll_sd1_205.c0_initial = 0,
+		altpll_sys_altpll_sd1_205.c0_low = 0,
+		altpll_sys_altpll_sd1_205.c0_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.c0_ph = 0,
+		altpll_sys_altpll_sd1_205.c0_test_source = 5,
+		altpll_sys_altpll_sd1_205.c1_high = 0,
+		altpll_sys_altpll_sd1_205.c1_initial = 0,
+		altpll_sys_altpll_sd1_205.c1_low = 0,
+		altpll_sys_altpll_sd1_205.c1_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.c1_ph = 0,
+		altpll_sys_altpll_sd1_205.c1_test_source = 5,
+		altpll_sys_altpll_sd1_205.c1_use_casc_in = "OFF",
+		altpll_sys_altpll_sd1_205.c2_high = 0,
+		altpll_sys_altpll_sd1_205.c2_initial = 0,
+		altpll_sys_altpll_sd1_205.c2_low = 0,
+		altpll_sys_altpll_sd1_205.c2_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.c2_ph = 0,
+		altpll_sys_altpll_sd1_205.c2_test_source = 5,
+		altpll_sys_altpll_sd1_205.c2_use_casc_in = "OFF",
+		altpll_sys_altpll_sd1_205.c3_high = 0,
+		altpll_sys_altpll_sd1_205.c3_initial = 0,
+		altpll_sys_altpll_sd1_205.c3_low = 0,
+		altpll_sys_altpll_sd1_205.c3_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.c3_ph = 0,
+		altpll_sys_altpll_sd1_205.c3_test_source = 5,
+		altpll_sys_altpll_sd1_205.c3_use_casc_in = "OFF",
+		altpll_sys_altpll_sd1_205.c4_high = 0,
+		altpll_sys_altpll_sd1_205.c4_initial = 0,
+		altpll_sys_altpll_sd1_205.c4_low = 0,
+		altpll_sys_altpll_sd1_205.c4_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.c4_ph = 0,
+		altpll_sys_altpll_sd1_205.c4_test_source = 5,
+		altpll_sys_altpll_sd1_205.c4_use_casc_in = "OFF",
+		altpll_sys_altpll_sd1_205.c5_high = 0,
+		altpll_sys_altpll_sd1_205.c5_initial = 0,
+		altpll_sys_altpll_sd1_205.c5_low = 0,
+		altpll_sys_altpll_sd1_205.c5_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.c5_ph = 0,
+		altpll_sys_altpll_sd1_205.c5_test_source = 5,
+		altpll_sys_altpll_sd1_205.c5_use_casc_in = "OFF",
+		altpll_sys_altpll_sd1_205.c6_high = 0,
+		altpll_sys_altpll_sd1_205.c6_initial = 0,
+		altpll_sys_altpll_sd1_205.c6_low = 0,
+		altpll_sys_altpll_sd1_205.c6_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.c6_ph = 0,
+		altpll_sys_altpll_sd1_205.c6_test_source = 5,
+		altpll_sys_altpll_sd1_205.c6_use_casc_in = "OFF",
+		altpll_sys_altpll_sd1_205.c7_high = 0,
+		altpll_sys_altpll_sd1_205.c7_initial = 0,
+		altpll_sys_altpll_sd1_205.c7_low = 0,
+		altpll_sys_altpll_sd1_205.c7_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.c7_ph = 0,
+		altpll_sys_altpll_sd1_205.c7_test_source = 5,
+		altpll_sys_altpll_sd1_205.c7_use_casc_in = "OFF",
+		altpll_sys_altpll_sd1_205.c8_high = 0,
+		altpll_sys_altpll_sd1_205.c8_initial = 0,
+		altpll_sys_altpll_sd1_205.c8_low = 0,
+		altpll_sys_altpll_sd1_205.c8_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.c8_ph = 0,
+		altpll_sys_altpll_sd1_205.c8_test_source = 5,
+		altpll_sys_altpll_sd1_205.c8_use_casc_in = "OFF",
+		altpll_sys_altpll_sd1_205.c9_high = 0,
+		altpll_sys_altpll_sd1_205.c9_initial = 0,
+		altpll_sys_altpll_sd1_205.c9_low = 0,
+		altpll_sys_altpll_sd1_205.c9_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.c9_ph = 0,
+		altpll_sys_altpll_sd1_205.c9_test_source = 5,
+		altpll_sys_altpll_sd1_205.c9_use_casc_in = "OFF",
+		altpll_sys_altpll_sd1_205.charge_pump_current = 2,
+		altpll_sys_altpll_sd1_205.charge_pump_current_bits = 9999,
+		altpll_sys_altpll_sd1_205.clk0_counter = "G0",
+		altpll_sys_altpll_sd1_205.clk0_divide_by = 1,
+		altpll_sys_altpll_sd1_205.clk0_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.clk0_multiply_by = 2,
+		altpll_sys_altpll_sd1_205.clk0_output_frequency = 0,
+		altpll_sys_altpll_sd1_205.clk0_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.clk0_time_delay = "0",
+		altpll_sys_altpll_sd1_205.clk0_use_even_counter_mode = "OFF",
+		altpll_sys_altpll_sd1_205.clk0_use_even_counter_value = "OFF",
+		altpll_sys_altpll_sd1_205.clk1_counter = "G0",
+		altpll_sys_altpll_sd1_205.clk1_divide_by = 1,
+		altpll_sys_altpll_sd1_205.clk1_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.clk1_multiply_by = 2,
+		altpll_sys_altpll_sd1_205.clk1_output_frequency = 0,
+		altpll_sys_altpll_sd1_205.clk1_phase_shift = "-1667",
+		altpll_sys_altpll_sd1_205.clk1_time_delay = "0",
+		altpll_sys_altpll_sd1_205.clk1_use_even_counter_mode = "OFF",
+		altpll_sys_altpll_sd1_205.clk1_use_even_counter_value = "OFF",
+		altpll_sys_altpll_sd1_205.clk2_counter = "G0",
+		altpll_sys_altpll_sd1_205.clk2_divide_by = 1,
+		altpll_sys_altpll_sd1_205.clk2_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.clk2_multiply_by = 1,
+		altpll_sys_altpll_sd1_205.clk2_output_frequency = 0,
+		altpll_sys_altpll_sd1_205.clk2_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.clk2_time_delay = "0",
+		altpll_sys_altpll_sd1_205.clk2_use_even_counter_mode = "OFF",
+		altpll_sys_altpll_sd1_205.clk2_use_even_counter_value = "OFF",
+		altpll_sys_altpll_sd1_205.clk3_counter = "G0",
+		altpll_sys_altpll_sd1_205.clk3_divide_by = 1,
+		altpll_sys_altpll_sd1_205.clk3_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.clk3_multiply_by = 1,
+		altpll_sys_altpll_sd1_205.clk3_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.clk3_time_delay = "0",
+		altpll_sys_altpll_sd1_205.clk3_use_even_counter_mode = "OFF",
+		altpll_sys_altpll_sd1_205.clk3_use_even_counter_value = "OFF",
+		altpll_sys_altpll_sd1_205.clk4_counter = "G0",
+		altpll_sys_altpll_sd1_205.clk4_divide_by = 1,
+		altpll_sys_altpll_sd1_205.clk4_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.clk4_multiply_by = 1,
+		altpll_sys_altpll_sd1_205.clk4_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.clk4_time_delay = "0",
+		altpll_sys_altpll_sd1_205.clk4_use_even_counter_mode = "OFF",
+		altpll_sys_altpll_sd1_205.clk4_use_even_counter_value = "OFF",
+		altpll_sys_altpll_sd1_205.clk5_counter = "G0",
+		altpll_sys_altpll_sd1_205.clk5_divide_by = 1,
+		altpll_sys_altpll_sd1_205.clk5_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.clk5_multiply_by = 1,
+		altpll_sys_altpll_sd1_205.clk5_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.clk5_time_delay = "0",
+		altpll_sys_altpll_sd1_205.clk5_use_even_counter_mode = "OFF",
+		altpll_sys_altpll_sd1_205.clk5_use_even_counter_value = "OFF",
+		altpll_sys_altpll_sd1_205.clk6_counter = "E0",
+		altpll_sys_altpll_sd1_205.clk6_divide_by = 0,
+		altpll_sys_altpll_sd1_205.clk6_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.clk6_multiply_by = 0,
+		altpll_sys_altpll_sd1_205.clk6_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.clk6_use_even_counter_mode = "OFF",
+		altpll_sys_altpll_sd1_205.clk6_use_even_counter_value = "OFF",
+		altpll_sys_altpll_sd1_205.clk7_counter = "E1",
+		altpll_sys_altpll_sd1_205.clk7_divide_by = 0,
+		altpll_sys_altpll_sd1_205.clk7_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.clk7_multiply_by = 0,
+		altpll_sys_altpll_sd1_205.clk7_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.clk7_use_even_counter_mode = "OFF",
+		altpll_sys_altpll_sd1_205.clk7_use_even_counter_value = "OFF",
+		altpll_sys_altpll_sd1_205.clk8_counter = "E2",
+		altpll_sys_altpll_sd1_205.clk8_divide_by = 0,
+		altpll_sys_altpll_sd1_205.clk8_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.clk8_multiply_by = 0,
+		altpll_sys_altpll_sd1_205.clk8_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.clk8_use_even_counter_mode = "OFF",
+		altpll_sys_altpll_sd1_205.clk8_use_even_counter_value = "OFF",
+		altpll_sys_altpll_sd1_205.clk9_counter = "E3",
+		altpll_sys_altpll_sd1_205.clk9_divide_by = 0,
+		altpll_sys_altpll_sd1_205.clk9_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.clk9_multiply_by = 0,
+		altpll_sys_altpll_sd1_205.clk9_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.clk9_use_even_counter_mode = "OFF",
+		altpll_sys_altpll_sd1_205.clk9_use_even_counter_value = "OFF",
+		altpll_sys_altpll_sd1_205.compensate_clock = "CLK0",
+		altpll_sys_altpll_sd1_205.down_spread = "0",
+		altpll_sys_altpll_sd1_205.dpa_divide_by = 1,
+		altpll_sys_altpll_sd1_205.dpa_divider = 0,
+		altpll_sys_altpll_sd1_205.dpa_multiply_by = 0,
+		altpll_sys_altpll_sd1_205.e0_high = 1,
+		altpll_sys_altpll_sd1_205.e0_initial = 1,
+		altpll_sys_altpll_sd1_205.e0_low = 1,
+		altpll_sys_altpll_sd1_205.e0_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.e0_ph = 0,
+		altpll_sys_altpll_sd1_205.e0_time_delay = 0,
+		altpll_sys_altpll_sd1_205.e1_high = 1,
+		altpll_sys_altpll_sd1_205.e1_initial = 1,
+		altpll_sys_altpll_sd1_205.e1_low = 1,
+		altpll_sys_altpll_sd1_205.e1_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.e1_ph = 0,
+		altpll_sys_altpll_sd1_205.e1_time_delay = 0,
+		altpll_sys_altpll_sd1_205.e2_high = 1,
+		altpll_sys_altpll_sd1_205.e2_initial = 1,
+		altpll_sys_altpll_sd1_205.e2_low = 1,
+		altpll_sys_altpll_sd1_205.e2_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.e2_ph = 0,
+		altpll_sys_altpll_sd1_205.e2_time_delay = 0,
+		altpll_sys_altpll_sd1_205.e3_high = 1,
+		altpll_sys_altpll_sd1_205.e3_initial = 1,
+		altpll_sys_altpll_sd1_205.e3_low = 1,
+		altpll_sys_altpll_sd1_205.e3_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.e3_ph = 0,
+		altpll_sys_altpll_sd1_205.e3_time_delay = 0,
+		altpll_sys_altpll_sd1_205.enable0_counter = "L0",
+		altpll_sys_altpll_sd1_205.enable1_counter = "L0",
+		altpll_sys_altpll_sd1_205.enable_switch_over_counter = "OFF",
+		altpll_sys_altpll_sd1_205.extclk0_counter = "E0",
+		altpll_sys_altpll_sd1_205.extclk0_divide_by = 1,
+		altpll_sys_altpll_sd1_205.extclk0_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.extclk0_multiply_by = 1,
+		altpll_sys_altpll_sd1_205.extclk0_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.extclk0_time_delay = "0",
+		altpll_sys_altpll_sd1_205.extclk1_counter = "E1",
+		altpll_sys_altpll_sd1_205.extclk1_divide_by = 1,
+		altpll_sys_altpll_sd1_205.extclk1_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.extclk1_multiply_by = 1,
+		altpll_sys_altpll_sd1_205.extclk1_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.extclk1_time_delay = "0",
+		altpll_sys_altpll_sd1_205.extclk2_counter = "E2",
+		altpll_sys_altpll_sd1_205.extclk2_divide_by = 1,
+		altpll_sys_altpll_sd1_205.extclk2_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.extclk2_multiply_by = 1,
+		altpll_sys_altpll_sd1_205.extclk2_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.extclk2_time_delay = "0",
+		altpll_sys_altpll_sd1_205.extclk3_counter = "E3",
+		altpll_sys_altpll_sd1_205.extclk3_divide_by = 1,
+		altpll_sys_altpll_sd1_205.extclk3_duty_cycle = 50,
+		altpll_sys_altpll_sd1_205.extclk3_multiply_by = 1,
+		altpll_sys_altpll_sd1_205.extclk3_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.extclk3_time_delay = "0",
+		altpll_sys_altpll_sd1_205.feedback_source = "EXTCLK0",
+		altpll_sys_altpll_sd1_205.g0_high = 1,
+		altpll_sys_altpll_sd1_205.g0_initial = 1,
+		altpll_sys_altpll_sd1_205.g0_low = 1,
+		altpll_sys_altpll_sd1_205.g0_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.g0_ph = 0,
+		altpll_sys_altpll_sd1_205.g0_time_delay = 0,
+		altpll_sys_altpll_sd1_205.g1_high = 1,
+		altpll_sys_altpll_sd1_205.g1_initial = 1,
+		altpll_sys_altpll_sd1_205.g1_low = 1,
+		altpll_sys_altpll_sd1_205.g1_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.g1_ph = 0,
+		altpll_sys_altpll_sd1_205.g1_time_delay = 0,
+		altpll_sys_altpll_sd1_205.g2_high = 1,
+		altpll_sys_altpll_sd1_205.g2_initial = 1,
+		altpll_sys_altpll_sd1_205.g2_low = 1,
+		altpll_sys_altpll_sd1_205.g2_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.g2_ph = 0,
+		altpll_sys_altpll_sd1_205.g2_time_delay = 0,
+		altpll_sys_altpll_sd1_205.g3_high = 1,
+		altpll_sys_altpll_sd1_205.g3_initial = 1,
+		altpll_sys_altpll_sd1_205.g3_low = 1,
+		altpll_sys_altpll_sd1_205.g3_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.g3_ph = 0,
+		altpll_sys_altpll_sd1_205.g3_time_delay = 0,
+		altpll_sys_altpll_sd1_205.gate_lock_counter = 0,
+		altpll_sys_altpll_sd1_205.gate_lock_signal = "NO",
+		altpll_sys_altpll_sd1_205.inclk0_input_frequency = 20000,
+		altpll_sys_altpll_sd1_205.inclk1_input_frequency = 0,
+		altpll_sys_altpll_sd1_205.intended_device_family = "Cyclone II",
+		altpll_sys_altpll_sd1_205.invalid_lock_multiplier = 5,
+		altpll_sys_altpll_sd1_205.l0_high = 1,
+		altpll_sys_altpll_sd1_205.l0_initial = 1,
+		altpll_sys_altpll_sd1_205.l0_low = 1,
+		altpll_sys_altpll_sd1_205.l0_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.l0_ph = 0,
+		altpll_sys_altpll_sd1_205.l0_time_delay = 0,
+		altpll_sys_altpll_sd1_205.l1_high = 1,
+		altpll_sys_altpll_sd1_205.l1_initial = 1,
+		altpll_sys_altpll_sd1_205.l1_low = 1,
+		altpll_sys_altpll_sd1_205.l1_mode = "BYPASS",
+		altpll_sys_altpll_sd1_205.l1_ph = 0,
+		altpll_sys_altpll_sd1_205.l1_time_delay = 0,
+		altpll_sys_altpll_sd1_205.lock_high = 1,
+		altpll_sys_altpll_sd1_205.lock_low = 1,
+		altpll_sys_altpll_sd1_205.lock_window_ui = " 0.05",
+		altpll_sys_altpll_sd1_205.loop_filter_c = 5,
+		altpll_sys_altpll_sd1_205.loop_filter_c_bits = 9999,
+		altpll_sys_altpll_sd1_205.loop_filter_r = " 1.000000",
+		altpll_sys_altpll_sd1_205.loop_filter_r_bits = 9999,
+		altpll_sys_altpll_sd1_205.m = 0,
+		altpll_sys_altpll_sd1_205.m2 = 1,
+		altpll_sys_altpll_sd1_205.m_initial = 0,
+		altpll_sys_altpll_sd1_205.m_ph = 0,
+		altpll_sys_altpll_sd1_205.m_test_source = 5,
+		altpll_sys_altpll_sd1_205.m_time_delay = 0,
+		altpll_sys_altpll_sd1_205.n = 1,
+		altpll_sys_altpll_sd1_205.n2 = 1,
+		altpll_sys_altpll_sd1_205.n_time_delay = 0,
+		altpll_sys_altpll_sd1_205.operation_mode = "normal",
+		altpll_sys_altpll_sd1_205.pfd_max = 0,
+		altpll_sys_altpll_sd1_205.pfd_min = 0,
+		altpll_sys_altpll_sd1_205.pll_type = "AUTO",
+		altpll_sys_altpll_sd1_205.port_activeclock = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_areset = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_clk0 = "PORT_USED",
+		altpll_sys_altpll_sd1_205.port_clk1 = "PORT_USED",
+		altpll_sys_altpll_sd1_205.port_clk2 = "PORT_USED",
+		altpll_sys_altpll_sd1_205.port_clk3 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_clk4 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_clk5 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_clk6 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_clk7 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_clk8 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_clk9 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_clkbad0 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_clkbad1 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_clkena0 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_clkena1 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_clkena2 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_clkena3 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_clkena4 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_clkena5 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_clkloss = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_clkswitch = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_configupdate = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_enable0 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_enable1 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_extclk0 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_extclk1 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_extclk2 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_extclk3 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_extclkena0 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_extclkena1 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_extclkena2 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_extclkena3 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_fbin = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_fbout = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_inclk0 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_inclk1 = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_locked = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_pfdena = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_phasecounterselect = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_phasedone = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_phasestep = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_phaseupdown = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_pllena = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_scanaclr = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_scanclk = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_scanclkena = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_scandata = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_scandataout = "PORT_UNUSED",
+		altpll_sys_altpll_sd1_205.port_scandone = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_scanread = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_scanwrite = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_sclkout0 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_sclkout1 = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_vcooverrange = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.port_vcounderrange = "PORT_CONNECTIVITY",
+		altpll_sys_altpll_sd1_205.primary_clock = "INCLK0",
+		altpll_sys_altpll_sd1_205.qualify_conf_done = "OFF",
+		altpll_sys_altpll_sd1_205.scan_chain = "LONG",
+		altpll_sys_altpll_sd1_205.sclkout0_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.sclkout1_phase_shift = "0",
+		altpll_sys_altpll_sd1_205.self_reset_on_gated_loss_lock = "OFF",
+		altpll_sys_altpll_sd1_205.self_reset_on_loss_lock = "OFF",
+		altpll_sys_altpll_sd1_205.sim_gate_lock_device_behavior = "OFF",
+		altpll_sys_altpll_sd1_205.skip_vco = "OFF",
+		altpll_sys_altpll_sd1_205.spread_frequency = 0,
+		altpll_sys_altpll_sd1_205.ss = 1,
+		altpll_sys_altpll_sd1_205.switch_over_counter = 0,
+		altpll_sys_altpll_sd1_205.switch_over_on_gated_lock = "OFF",
+		altpll_sys_altpll_sd1_205.switch_over_on_lossclk = "OFF",
+		altpll_sys_altpll_sd1_205.switch_over_type = "AUTO",
+		altpll_sys_altpll_sd1_205.using_fbmimicbidir_port = "OFF",
+		altpll_sys_altpll_sd1_205.valid_lock_multiplier = 1,
+		altpll_sys_altpll_sd1_205.vco_center = 0,
+		altpll_sys_altpll_sd1_205.vco_divide_by = 0,
+		altpll_sys_altpll_sd1_205.vco_frequency_control = "AUTO",
+		altpll_sys_altpll_sd1_205.vco_max = 0,
+		altpll_sys_altpll_sd1_205.vco_min = 0,
+		altpll_sys_altpll_sd1_205.vco_multiply_by = 0,
+		altpll_sys_altpll_sd1_205.vco_phase_shift_step = 0,
+		altpll_sys_altpll_sd1_205.vco_post_scale = 0,
+		altpll_sys_altpll_sd1_205.width_clock = 6,
+		altpll_sys_altpll_sd1_205.width_phasecounterselect = 4;
+	initial
+	begin
+		altpll_sys_pfdena_reg_6q = 0;
+	end
+	always @ ( posedge clk or  posedge reset)
+	begin
+		if (reset == 1'b1) 
+		begin
+			altpll_sys_pfdena_reg_6q <= 1;
+		end
+		else if  (s_wire_altpll_sys_wire_pfdena_reg_ena_15_dataout == 1'b1) 
+		begin
+			altpll_sys_pfdena_reg_6q <= writedata[1];
+		end
+	end
+	event altpll_sys_pfdena_reg_6q_event;
+	initial
+		#1 ->altpll_sys_pfdena_reg_6q_event;
+	always @(altpll_sys_pfdena_reg_6q_event)
+		altpll_sys_pfdena_reg_6q <= 1;
+	initial
+	begin
+		altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe4a_0_116q = 0;
+		altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe5a_0_119q = 0;
+		altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe6a_0_117q = 0;
+		altpll_sys_prev_reset_4q = 0;
+	end
+	always @ ( posedge clk or  posedge reset)
+	begin
+		if (reset == 1'b1) 
+		begin
+			altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe4a_0_116q <= 0;
+			altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe5a_0_119q <= 0;
+			altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe6a_0_117q <= 0;
+			altpll_sys_prev_reset_4q <= 0;
+		end
+		else 
+		begin
+			altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe4a_0_116q <= wire_altpll_sys_altpll_sd1_205_locked;
+			altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe5a_0_119q <= altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe4a_0_116q;
+			altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe6a_0_117q <= altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe5a_0_119q;
+			altpll_sys_prev_reset_4q <= (s_wire_altpll_sys_wire_pfdena_reg_ena_15_dataout & writedata[0]);
+		end
+	end
+	assign
+		c0 = wire_altpll_sys_altpll_sd1_205_clk[0],
+		c1 = wire_altpll_sys_altpll_sd1_205_clk[1],
+		c2 = wire_altpll_sys_altpll_sd1_205_clk[2],
+		locked = wire_altpll_sys_altpll_sd1_205_locked,
+		phasedone = 1'b0,
+		readdata = {{30{1'b0}}, (((altpll_sys_pfdena_reg_6q & s_wire_altpll_sys_w_select_control_17_dataout) | s_wire_altpll_sys_w_select_status_20_dataout) & read), (((altpll_sys_prev_reset_4q & s_wire_altpll_sys_w_select_control_17_dataout) | (s_wire_altpll_sys_w_select_status_20_dataout & altpll_sys_altpll_sys_stdsync_sv6_stdsync2_altpll_sys_dffpipe_l2c_dffpipe3_dffe6a_0_117q)) & read)},
+		s_wire_altpll_sys_w_select_control_17_dataout = (address[0] & (~ address[1])),
+		s_wire_altpll_sys_w_select_status_20_dataout = ((~ address[0]) & (~ address[1])),
+		s_wire_altpll_sys_wire_pfdena_reg_ena_15_dataout = (s_wire_altpll_sys_w_select_control_17_dataout & write),
+		s_wire_vcc = 1'b1;
+endmodule //altpll_sys
+//synopsys translate_on
+//VALID FILE

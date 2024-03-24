@@ -1,0 +1,425 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 11.898
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : 15.985
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.672
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'LCD_CLK'
+Slack : 20.593
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 35.805
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'altera_reserved_tck'
+Slack : 46.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LCD_CLK'
+Slack : 5.690
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -3.892
+TNS   : -11.674
+
+Type  : Slow 1200mV 85C Model Recovery 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 5.721
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 17.041
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK_50'
+Slack : 17.789
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 46.028
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 48.037
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.173
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'altera_reserved_tck'
+Slack : 1.190
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CLOCK_50'
+Slack : 1.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 1.416
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 2.587
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 2.661
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 4.700
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.683
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 9.705
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK2_50'
+Slack : 9.818
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.852
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK3_50'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 24.696
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LCD_CLK'
+Slack : 26.093
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.545
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 1.332
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 12.620
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : 16.345
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 20.495
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'LCD_CLK'
+Slack : 21.182
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 36.973
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'altera_reserved_tck'
+Slack : 46.720
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LCD_CLK'
+Slack : 5.269
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -3.464
+TNS   : -10.392
+
+Type  : Slow 1200mV 0C Model Recovery 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 6.143
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 17.277
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : 17.964
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 46.409
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 48.327
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.076
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'altera_reserved_tck'
+Slack : 1.090
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 1.253
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 1.276
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 2.289
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 2.374
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 4.688
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.690
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 9.710
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK2_50'
+Slack : 9.803
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.838
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK3_50'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 24.687
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LCD_CLK'
+Slack : 26.093
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.477
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 5.352
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 16.115
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : 18.058
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'LCD_CLK'
+Slack : 24.627
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 25.053
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 42.901
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'altera_reserved_tck'
+Slack : 48.462
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LCD_CLK'
+Slack : 3.363
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.035
+TNS   : -6.104
+
+Type  : Fast 1200mV 0C Model Recovery 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 7.737
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 18.412
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : 18.853
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 47.896
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 49.343
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.548
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.567
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 0.647
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 0.661
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 1.361
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 1.424
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[0]'
+Slack : 4.750
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.265
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK2_50'
+Slack : 9.405
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[3]'
+Slack : 9.780
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.912
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK3_50'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DE2_115_SOPC_inst|altpll_0|sd1|pll7|clk[2]'
+Slack : 24.752
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LCD_CLK'
+Slack : 26.303
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.299
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,42 @@
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_IS2Vid.v(99): object "TRS" differs only in case from object "trs" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_IS2Vid.v(63): object "INTERLACED" differs only in case from object "interlaced" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_IS2Vid.v(64): object "AP_LINE" differs only in case from object "ap_line" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_IS2Vid.v(72): object "H_BLANK" differs only in case from object "h_blank" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_IS2Vid.v(82): object "F_RISING_EDGE" differs only in case from object "f_rising_edge" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_IS2Vid.v(83): object "F_FALLING_EDGE" differs only in case from object "f_falling_edge" in the same scope
+Warning (10268): Verilog HDL information at alt_vipitc101_IS2Vid_mode_banks.v(413): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_IS2Vid_mode_banks.v(8): object "INTERLACED" differs only in case from object "interlaced" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_IS2Vid_mode_banks.v(21): object "AP_LINE" differs only in case from object "ap_line" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_IS2Vid_mode_banks.v(23): object "F_RISING_EDGE" differs only in case from object "f_rising_edge" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_IS2Vid_mode_banks.v(24): object "F_FALLING_EDGE" differs only in case from object "f_falling_edge" in the same scope
+Warning (10268): Verilog HDL information at alt_vipitc101_IS2Vid_statemachine.v(74): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_common_generic_count.v(3): object "MAX_COUNT" differs only in case from object "max_count" in the same scope
+Info (10281): Verilog HDL Declaration information at alt_vipitc101_common_generic_count.v(4): object "RESET_VALUE" differs only in case from object "reset_value" in the same scope
+Warning (10268): Verilog HDL information at alt_vipitc101_common_sync_generation.v(59): always construct contains both blocking and non-blocking assignments
+Warning (10273): Verilog HDL warning at TERASIC_SRAM.v(46): extended using "x" or "z"
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_0.v(95): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_0.v(104): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_0.v(113): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_0.v(239): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_0.v(248): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_0.v(257): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_0.v(266): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_0.v(275): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_1.v(95): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_1.v(104): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_1.v(113): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_1.v(239): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_1.v(248): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_1.v(257): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_1.v(266): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at mtl_sopc_clock_1.v(275): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(1963): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(1965): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(2115): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at cpu.v(3013): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at epcs_flash_controller.v(401): conditional expression evaluates to a constant
+Warning (10273): Verilog HDL warning at lcd.v(57): extended using "x" or "z"
+Warning (10037): Verilog HDL or VHDL warning at sdram.v(313): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at sdram.v(323): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at sdram.v(333): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at sdram.v(677): conditional expression evaluates to a constant

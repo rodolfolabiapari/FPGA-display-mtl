@@ -1,0 +1,181 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : 0.075
+TNS   : 0.000
+
+Type  : Slow Model Setup 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[0]'
+Slack : 1.503
+TNS   : 0.000
+
+Type  : Slow Model Setup 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[2]'
+Slack : 14.076
+TNS   : 0.000
+
+Type  : Slow Model Setup 'vga_pll_inst|altpll_component|pll|clk[0]'
+Slack : 20.262
+TNS   : 0.000
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -2.692
+TNS   : -5.852
+
+Type  : Slow Model Hold 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[0]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[2]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'vga_pll_inst|altpll_component|pll|clk[0]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'vga_pll_inst|altpll_component|pll|clk[0]'
+Slack : -3.201
+TNS   : -267.051
+
+Type  : Slow Model Recovery 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[0]'
+Slack : -0.007
+TNS   : -0.007
+
+Type  : Slow Model Recovery 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[2]'
+Slack : 6.230
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'CLOCK_50'
+Slack : 8.105
+TNS   : 0.000
+
+Type  : Slow Model Removal 'CLOCK_50'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Slow Model Removal 'vga_pll_inst|altpll_component|pll|clk[0]'
+Slack : 1.031
+TNS   : 0.000
+
+Type  : Slow Model Removal 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[2]'
+Slack : 1.230
+TNS   : 0.000
+
+Type  : Slow Model Removal 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[0]'
+Slack : 2.495
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[0]'
+Slack : 2.873
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : 7.620
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[2]'
+Slack : 7.873
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'vga_pll_inst|altpll_component|pll|clk[0]'
+Slack : 13.024
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_27'
+Slack : 18.518
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 97.778
+TNS   : 0.000
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Fast Model Setup 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[0]'
+Slack : 3.795
+TNS   : 0.000
+
+Type  : Fast Model Setup 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[2]'
+Slack : 17.344
+TNS   : 0.000
+
+Type  : Fast Model Setup 'vga_pll_inst|altpll_component|pll|clk[0]'
+Slack : 25.881
+TNS   : 0.000
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -1.870
+TNS   : -4.655
+
+Type  : Fast Model Hold 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[2]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'vga_pll_inst|altpll_component|pll|clk[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'vga_pll_inst|altpll_component|pll|clk[0]'
+Slack : -1.964
+TNS   : -161.459
+
+Type  : Fast Model Recovery 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[0]'
+Slack : 1.798
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[2]'
+Slack : 8.121
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'CLOCK_50'
+Slack : 9.017
+TNS   : 0.000
+
+Type  : Fast Model Removal 'CLOCK_50'
+Slack : -0.085
+TNS   : -1.775
+
+Type  : Fast Model Removal 'vga_pll_inst|altpll_component|pll|clk[0]'
+Slack : 0.581
+TNS   : 0.000
+
+Type  : Fast Model Removal 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[2]'
+Slack : 0.675
+TNS   : 0.000
+
+Type  : Fast Model Removal 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[0]'
+Slack : 1.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[0]'
+Slack : 2.873
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : 7.620
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'MTL_SOPC_inst|the_altpll_sys|sd1|pll|clk[2]'
+Slack : 7.873
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'vga_pll_inst|altpll_component|pll|clk[0]'
+Slack : 13.024
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_27'
+Slack : 18.518
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 97.778
+TNS   : 0.000
+
+------------------------------------------------------------

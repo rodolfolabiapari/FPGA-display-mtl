@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/HAL/inc
+END
+nios2.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/HAL/inc/nios2.h
+END
+altera_nios2_qsys_irq.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/HAL/inc/altera_nios2_qsys_irq.h
+END
+alt_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/HAL/inc/alt_types.h
+END
+io.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/HAL/inc/io.h
+END

@@ -1,0 +1,29 @@
+!SESSION 2016-01-26 13:26:39.062 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-26 13:27:52.530
+!MESSAGE Indexed 'painter_bsp' (81 sources, 60 headers) in 0.69 sec: 957 declarations; 2,376 references; 117 unresolved inclusions; 5 syntax errors; 199 unresolved names (5.63%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-26 13:27:55.156
+!MESSAGE Indexed 'painter' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-26 13:31:52.340
+!MESSAGE Indexed 'painter' (15 sources, 112 headers) in 1.18 sec: 5,216 declarations; 8,616 references; 0 unresolved inclusions; 2 syntax errors; 63 unresolved names (0.45%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-26 13:33:05.081
+!MESSAGE Indexed 'painter' (15 sources, 112 headers) in 1.01 sec: 5,216 declarations; 8,616 references; 0 unresolved inclusions; 2 syntax errors; 63 unresolved names (0.45%)
+!SESSION 2016-01-26 13:45:33.615 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-01-26 13:50:32.245
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.altera.sbtgui.core.commandline.ExecutableJob

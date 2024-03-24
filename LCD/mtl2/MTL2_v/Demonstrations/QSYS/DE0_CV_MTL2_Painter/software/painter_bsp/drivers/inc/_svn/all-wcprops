@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/drivers/inc
+END
+altera_avalon_pio_regs.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/drivers/inc/altera_avalon_pio_regs.h
+END
+altera_avalon_jtag_uart_fd.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/drivers/inc/altera_avalon_jtag_uart_fd.h
+END
+altera_avalon_sysid_qsys.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/drivers/inc/altera_avalon_sysid_qsys.h
+END
+altera_avalon_sysid_qsys_regs.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/drivers/inc/altera_avalon_sysid_qsys_regs.h
+END
+altera_avalon_jtag_uart.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/drivers/inc/altera_avalon_jtag_uart.h
+END
+altera_avalon_jtag_uart_regs.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/drivers/inc/altera_avalon_jtag_uart_regs.h
+END
+altera_avalon_timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/drivers/inc/altera_avalon_timer.h
+END
+altera_avalon_timer_regs.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter_bsp/drivers/inc/altera_avalon_timer_regs.h
+END

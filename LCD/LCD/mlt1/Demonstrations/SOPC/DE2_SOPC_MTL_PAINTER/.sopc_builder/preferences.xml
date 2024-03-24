@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="Default">
+  <columns>
+   <opcodeName visible="0" />
+   <connections preferredWidth="111" />
+   <irq preferredWidth="34" />
+   <export visible="0" />
+   <name preferredWidth="239" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="175" />
+   <clocksource preferredWidth="174" />
+   <frequency preferredWidth="165" />
+  </columns>
+ </clocktable>
+ <window width="1024" height="818" x="121" y="90" />
+ <library
+   expandedCategories="Library/Interface Protocols/Ethernet,Library/Interface Protocols/Serial,Library/Peripherals/Debug and Performance,Library/Peripherals/Display,Library/Memories and Memory Controllers/SDRAM,Library/Memories and Memory Controllers/Flash,Library/Peripherals/Microcontroller Peripherals,Library/Avalon Verification Suite,Library/Bridges and Adapters/Memory Mapped,Library/Memories and Memory Controllers,Project,Library/Merlin Components,Library/Interface Protocols,Library/Peripherals,Library/Memories and Memory Controllers/On-Chip,Library/Legacy Components,Library,Library/Interface Protocols/Ethernet/Example,Library/Bridges and Adapters/Streaming,Library/Bridges and Adapters" />
+</preferences>

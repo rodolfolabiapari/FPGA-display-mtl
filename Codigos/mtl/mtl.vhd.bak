@@ -1,0 +1,28 @@
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+
+ENTITY mtl_controller IS
+  GENERIC(
+    input_clk : INTEGER := 33_000_000 --input clock speed from user logic in Hz
+    );
+  PORT(
+    dclk          : OUT   STD_LOGIC;                    --system clock
+
+    r             : OUT   STD_LOGIC_VECTOR(7 DOWNTO 0); -- red bus
+    g             : OUT   STD_LOGIC_VECTOR(7 DOWNTO 0); -- green bus
+    b             : OUT   STD_LOGIC_VECTOR(7 DOWNTO 0); -- blue bus
+    
+    hsd           : OUT   STD_LOGIC;                    -- horizontal
+    vsd           : OUT   STD_LOGIC;                    -- vertical
+
+    touch_i2c_scl : OUT   STD_LOGIC;
+    touch_i2c_sda : INOUT STD_LOGIC;
+    touch_int_n   : IN    STD_LOGIC;
+END mtl_controller;
+
+ARCHITECTURE mtl_controller_behav OF mtl_controller IS
+begin
+
+end mtl_controller_behav;

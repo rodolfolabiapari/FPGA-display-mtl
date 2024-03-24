@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Aug 01 14:13:28 2014
+Quartus II 64-Bit Version : 13.1.4 Build 182 03/12/2014 SJ Full Version
+Revision Name : DE0_NANO_MTL2_Painter
+Top-level Entity Name : DE0_NANO_MTL2_Painter
+Family : Cyclone IV E
+Total logic elements : 8,506
+    Total combinational functions : 6,419
+    Dedicated logic registers : 5,094
+Total registers : 5094
+Total pins : 112
+Total virtual pins : 0
+Total memory bits : 105,392
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 2

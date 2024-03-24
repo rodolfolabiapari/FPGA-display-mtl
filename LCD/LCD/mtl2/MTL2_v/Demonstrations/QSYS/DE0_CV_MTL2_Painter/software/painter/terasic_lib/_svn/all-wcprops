@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib
+END
+multi_touch2.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/multi_touch2.c
+END
+I2C.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/I2C.h
+END
+multi_touch2.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/multi_touch2.h
+END
+queue.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/queue.c
+END
+I2C_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/I2C_core.c
+END
+terasic_includes.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/terasic_includes.h
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/debug.c
+END
+queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/queue.h
+END
+I2C_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/I2C_core.h
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/debug.h
+END
+I2C.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_lib/I2C.c
+END

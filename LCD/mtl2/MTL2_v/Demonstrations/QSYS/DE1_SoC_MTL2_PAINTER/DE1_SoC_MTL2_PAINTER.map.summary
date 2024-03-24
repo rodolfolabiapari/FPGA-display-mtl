@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Wed Dec 17 14:54:31 2014
+Quartus II 64-Bit Version : 14.0.2 Build 209 09/17/2014 SJ Full Version
+Revision Name : DE1_SoC_MTL2_PAINTER
+Top-level Entity Name : DE1_SoC_MTL2_PAINTER
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 5181
+Total pins : 235
+Total virtual pins : 0
+Total block memory bits : 113,456
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 2
+Total DLLs : 0

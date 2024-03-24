@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/vga_pll_sim/cadence
+END
+ncsim_setup.sh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/vga_pll_sim/cadence/ncsim_setup.sh
+END
+cds.lib
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/vga_pll_sim/cadence/cds.lib
+END
+hdl.var
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/vga_pll_sim/cadence/hdl.var
+END

@@ -1,0 +1,10 @@
+PLL_Name	picture_controller:u_controller|sdram_pll:u_sdram_pll|altpll:altpll_component|altpll_m1l2:auto_generated|pll1
+PLLJITTER	35
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	picture_controller:u_controller|vout_pll:u_vout_pll|altpll:altpll_component|vout_pll_altpll:auto_generated|pll1
+PLLJITTER	NA
+PLLSPEmax	84
+PLLSPEmin	-53
+

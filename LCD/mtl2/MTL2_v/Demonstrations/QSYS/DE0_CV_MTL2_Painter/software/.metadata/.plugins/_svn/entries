@@ -1,0 +1,70 @@
+10
+
+dir
+88
+http://192.168.1.42/svn/r1/mtl2/trunk/test/DE0_Nano_MTL2_Painter/software/.metadata/.plugins
+http://192.168.1.42/svn/r1/mtl2
+
+
+
+2014-08-01T05:16:30.596924Z
+77
+richard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+59127e13-0c48-0410-8df3-ab320630b89e
+
+org.eclipse.cdt.ui
+dir
+
+org.eclipse.mylyn.bugzilla.core
+dir
+
+org.eclipse.team.cvs.core
+dir
+
+org.eclipse.ui.intro
+dir
+
+org.eclipse.mylyn.tasks.ui
+dir
+
+org.eclipse.core.runtime
+dir
+
+org.eclipse.epp.usagedata.recording
+dir
+
+org.eclipse.cdt.make.core
+dir
+
+org.eclipse.debug.core
+dir
+
+org.eclipse.ui.workbench
+dir
+
+org.eclipse.cdt.core
+dir
+
+org.eclipse.core.resources
+dir
+
+org.eclipse.debug.ui
+dir
+
+org.eclipse.cdt.managedbuilder.core
+dir
+

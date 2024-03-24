@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/vga_pll_sim/synopsys/vcsmx
+END
+vcsmx_setup.sh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/vga_pll_sim/synopsys/vcsmx/vcsmx_setup.sh
+END
+synopsys_sim.setup
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/vga_pll_sim/synopsys/vcsmx/synopsys_sim.setup
+END

@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter
+END
+gui_vpg.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/gui_vpg.c
+END
+geometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/geometry.h
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/.project
+END
+create-this-app
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/create-this-app
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/.cproject
+END
+gesture.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/gesture.c
+END
+painter.objdump
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/painter.objdump
+END
+gesture.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/gesture.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/main.c
+END
+gui.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/gui.c
+END
+terasic_includes.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/terasic_includes.h
+END
+vip_fr.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/vip_fr.c
+END
+painter.elf
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/painter.elf
+END
+gui.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/gui.h
+END
+vip_fr.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/vip_fr.h
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/readme.txt
+END
+geometry.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/geometry.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/Makefile
+END
+painter.map
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/r1/mtl2/!svn/ver/77/trunk/test/DE0_Nano_MTL2_Painter/software/painter/painter.map
+END
